@@ -1,0 +1,34 @@
+{
+  "name": "nodejs-hw-3-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "nodemon server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BogUkraine/nodejs-hw-3-backend.git"
+  },
+  "author": "Bohdan Lysov <bogukraine@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BogUkraine/nodejs-hw-3-backend/issues"
+  },
+  "homepage": "https://github.com/BogUkraine/nodejs-hw-3-backend#readme",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "aws-sdk": "^2.655.0",
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.7",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
