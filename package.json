@@ -19,7 +19,7 @@
   "homepage": "https://github.com/BogUkraine/nodejs-hw-3-backend#readme",
   "dependencies": {
     "@hapi/joi": "^17.1.1",
-    "aws-sdk": "^2.655.0",
+    "aws-sdk": "^2.814.0",
     "bcryptjs": "^2.4.3",
     "config": "^3.3.1",
     "express": "^4.17.1",
